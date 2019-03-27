@@ -3,7 +3,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-const port = process.env.PORT || 3030;
+const port = process.env.PORT || 3000;
 
 // tell express where our static files are (js, images, css, etc )
 app.use(express.static('public'));
